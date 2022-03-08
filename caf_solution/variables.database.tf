@@ -74,6 +74,9 @@ variable "mysql_servers" {
 variable "postgresql_servers" {
   default = {}
 }
+variable "postgresql_flexible_servers" {
+   default = {}
+}
 variable "synapse_workspaces" {
   default = {}
 }
