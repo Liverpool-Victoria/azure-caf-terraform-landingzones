@@ -48,3 +48,7 @@ variable "monitor_autoscale_settings" {
   default     = {}
   description = "The map from the monitor_autoscale_settings module configuration"
 }
+
+variable "monitor_metric_alert" {
+  default = {}
+}

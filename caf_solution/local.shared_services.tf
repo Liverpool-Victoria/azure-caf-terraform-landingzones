@@ -12,6 +12,7 @@ locals {
       packer_service_principal   = var.packer_service_principal
       recovery_vaults            = var.recovery_vaults
       shared_image_galleries     = var.shared_image_galleries
+      monitor_metric_alert       = var.monitor_metric_alert
     }
   )
 }
