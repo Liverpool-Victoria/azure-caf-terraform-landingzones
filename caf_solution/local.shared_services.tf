@@ -13,6 +13,7 @@ locals {
       recovery_vaults            = var.recovery_vaults
       shared_image_galleries     = var.shared_image_galleries
       monitor_metric_alert       = var.monitor_metric_alert
+      monitor_activity_log_alert = var.monitor_activity_log_alert
     }
   )
 }
