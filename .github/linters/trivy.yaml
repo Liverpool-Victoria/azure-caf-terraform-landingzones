@@ -1,0 +1,6 @@
+severity:
+  - CRITICAL
+  - HIGH
+  # - MEDIUM
+  # - LOW
+  # - UNKNOWN
