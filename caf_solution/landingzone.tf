@@ -4,7 +4,7 @@ module "solution" {
   # source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
 
   # source = "../aztfmod"
-  source  = "git::https://github.com/Liverpool-Victoria/terraform-azurerm-caf.git?ref=lvfs"
+  source  = "git::https://github.com/Liverpool-Victoria/terraform-azurerm-caf.git?ref=ignore-ops-tags"
 
   providers = {
     azurerm.vhub = azurerm.vhub
